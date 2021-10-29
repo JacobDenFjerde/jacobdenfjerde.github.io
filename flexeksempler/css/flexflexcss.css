@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+    align-items: stretch;
+    margin:auto;
+    gap:5px 15px;
+}
+
+
+
+.flexen{
+    background-color: blue;
+    order:1;
+
+}
+
+.flexen2{
+    background-color: crimson;
+    Order:1;
+}
+
+.flexen3{
+    background-color: darkcyan;
+    order:2;
+}
+
+.flexen4{
+    background-color: darkgreen;
+    order:2;
+}

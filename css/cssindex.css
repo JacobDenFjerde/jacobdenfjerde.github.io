@@ -1,0 +1,105 @@
+Body {
+    background-color: white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+
+}
+
+.top{
+    background-color: lightgreen;
+    margin:5px;
+    padding: 3px;
+    border-radius:100px;
+}
+
+.top p{
+    margin-left:20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+    text-align:center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: lightskyblue;
+}
+
+.content{
+display: flex;
+flex-direction:row;
+margin:5px;
+Border-radius:100px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+.tekst{
+font-size: 14;
+background-color:lightgreen;
+margin-right:5px;
+border-radius:10px;
+padding:5px;
+width:50%;
+
+}
+
+
+
+.bilder{
+flex-basis:auto;
+background-color: white;
+margin-left:5px;
+border-radius:10px;
+width:50%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.bilder img{
+    border-radius:10px;
+    object-fit: contain;
+}
+
+
+
+.bottom{
+display:flex;
+flex-direction: row;
+margin:5px;
+border-radius:10px;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+.tekst2{
+    margin-right:5px;
+    background-color: lightgreen;
+    border-radius:10px;
+}
+
+.linker{
+    margin-left:5px;
+    padding-right:35px;
+    background-color: lightgreen;
+    border-radius:10px;
+}
+
+.bottom p{
+    margin:5px;
+}
+
+.Galleri, .Slideshow, .Diveksempel, .Eksterncss, .Flexboks, .Flexeksempler, .Forstenettsted, .Herotest, .oppgavefem, .Sosial, .Hero, .Tekstoverbilde, .objectfit{
+    border-radius:10px;
+    background-color: lightskyblue;
+    margin-left:25px;
+    padding-right:5px;
+    transform: transform 0.2 ease;
+}
+
+.Galleri:hover, .Slideshow:hover, .Diveksempel:hover, .Eksterncss:hover, .Flexboks:hover, .Flexeksempler:hover, .Forstenettsted:hover, .Herotest:hover, .oppgavefem:hover, .Sosial:hover, .Hero:hover, .Tekstoverbilde:hover, .objectfit:hover{
+    transform:scale(1.05);
+}

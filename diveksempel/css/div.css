@@ -1,0 +1,64 @@
+body {
+  width: 800px;
+  margin: auto;
+}
+
+.venstre {
+  width: 48%;
+  background-color: darkorange;
+  float: left;
+  margin-right: 1%;
+  padding: 1%px;
+}
+
+.hoyre {
+  width: 48%;
+  background-color: lightblue;
+  float: left;
+  margin-left: 1%;
+  padding: 1%px;
+}
+
+.venstretredjedel {
+  width: 30%;
+  background-color: darkorange;
+  float: left;
+  margin-left: 1%;
+  padding: 1%px;
+}
+
+.midtretredjedel {
+  width: 30%;
+  background-color: darkorange;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  padding: 1%px;
+}
+
+.nummer {
+  width: 30%;
+  background-color: darkorange;
+  float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  padding: 1%px;
+}
+
+.full {
+    margin-bottom:20px;
+    height:500pxpx;
+}
+
+.full2 {
+    margin-top:20px;
+
+}
+.bilderamme {
+    width:64%;
+    float:right;
+}
+
+.tekststripe {
+    width:34%;
+}
