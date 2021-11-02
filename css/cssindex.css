@@ -41,7 +41,7 @@ background-color:lightgreen;
 margin-right:5px;
 border-radius:10px;
 padding:5px;
-width:50%;
+width:75%;
 
 }
 
@@ -52,7 +52,7 @@ flex-basis:auto;
 background-color: white;
 margin-left:5px;
 border-radius:10px;
-width:50%;
+width:25%;
 
 }
 
@@ -79,6 +79,12 @@ font-family: Helvetica, Arial, sans-serif;
     margin-right:5px;
     background-color: lightgreen;
     border-radius:10px;
+}
+
+.tekst2 img{
+    border-radius:10px;
+    padding-left:25%;
+    height:420px;
 }
 
 .linker{
